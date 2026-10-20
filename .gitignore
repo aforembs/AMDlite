@@ -1,0 +1,73 @@
+# Build trees
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+obj/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+compile_commands.json
+CMakeUserPresets.json
+
+# Object files, libraries, and executables
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.d
+*.mod
+
+# Local binaries (if built outside build/)
+/amd_lite_demo
+/test_amd_lite
+/compare_amd
+
+# Benchmark build output
+bench/build-original/
+bench/build/
+
+# Debugging, profiling, and coverage
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+perf.data
+perf.data.*
+callgrind.out.*
+vgcore.*
+core
+core.*
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.clangd/
+.cache/
+
+# Python virtual environments / caches (if used for helper scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local results and temporary files
+*.tmp
+*.log
